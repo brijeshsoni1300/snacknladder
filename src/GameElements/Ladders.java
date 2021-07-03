@@ -20,4 +20,16 @@ public class Ladders {
             this.FinalPosition = random.nextInt(100);
         }
     }
+
+    public int getInitialPosition() {
+        return InitialPosition;
+    }
+
+    public int getFinalPosition() {
+        return FinalPosition;
+    }
+
+    public int getId() {
+        return id;
+    }
 }
